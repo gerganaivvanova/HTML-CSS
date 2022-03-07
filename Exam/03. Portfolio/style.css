@@ -1,0 +1,246 @@
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,700;1,300;1,500&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+*,
+*::before,
+*::after{
+box-sizing: border-box;
+}
+.portfolio{
+    background: #EFEFEF;
+    margin: 25px;
+    height: 600px;
+}
+.portfolio-nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 30px 0;
+}
+.portfolio-nav-menu{
+    padding-right: 15px;
+}
+.fas{
+    font-size: 25px;
+}
+.portfolio-intro{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px 0;
+}
+.portfolio-intro-text{
+    flex-basis:40%;
+}
+.portfolio-intro-text-title{
+ font-size: 50px;
+ font-weight: lighter;
+}
+.portfolio-intro-text-title span{
+ font-weight: bold;
+}
+.portfolio-intro-text-subtitle{
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #0A0A0A;
+   }
+.portfolio-intro-img{
+flex-basis: 50%;
+}
+.portfolio-intro-img img{
+    width: 100%;
+}
+.portfolio-intro-text::after{
+    content:'';
+    background: #777777;
+    width: 0.5px;
+    height: 50px;
+    position: absolute;
+}
+.content{
+    margin: 25px;
+    margin-bottom: 0;
+}
+.content-name{
+    background: #EFEFEF;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 100px;
+    justify-content: space-around;
+}
+.content-name-text{
+    flex-basis: 50%;
+}
+.content-name-text-title{
+    font-size: 50px;
+    font-weight: lighter;
+    padding-left: 90px;
+    position: relative;
+}
+.content-name-text-title span{
+    font-weight: bold;
+}
+.content-name-text-subtitle{
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0A0A0A;
+}
+.content-name-text-title::before{
+    content: '';
+    background: #777777;
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    top: 32px;
+    left: 3px;
+}
+.content-name-text-social{
+    margin-top: 30px;
+}
+.fab{
+    background: #8A8A8A;
+    color: white;
+    padding: 10px 12px;
+    margin-right: 20px;
+}
+.content-img{
+    height: 600px;
+    margin-top: 25px;
+}
+.content-img img{
+    width:100%;
+    max-height: 600px;
+}
+.content-opportuneties{
+    background: #EFEFEF;
+    margin-top: 25px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px 0;
+}
+.content-opportuneties-text{
+    flex-basis:40%;
+}
+.content-opportuneties-text-title{
+ font-size: 50px;
+ font-weight: lighter;
+}
+.content-opportuneties-text-title span{
+ font-weight: bold;
+}
+.content-opportuneties-text-subtitle{
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0A0A0A;
+   }
+.content-opportuneties-img{
+flex-basis: 50%;
+}
+.content-opportuneties-img img{
+    width: 100%;
+}
+.content-opportuneties-text::after{
+    content:'';
+    background: #777777;
+    width: 0.5px;
+    height: 50px;
+    position: absolute;
+}
+.content-pictures{
+    background: #EFEFEF;
+    margin-top: 25px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    padding: 0 100px 0 100px;
+}
+.first-image{
+    flex-shrink: 4;
+    position: relative;
+    top: 0;
+    left: 112px;
+}
+.second-image{
+    z-index: 1;
+    flex-shrink: 3;
+}
+.third-image{
+    flex-shrink: 4;
+    position: relative;
+    top: 0;
+    right: 100px;
+}
+.content-pictures img{
+    width: 100%;
+}
+.content-contacts{
+    background: #EFEFEF;
+    height: 600px;
+    margin-top: 25px;
+    text-align: center;
+    padding: 20px 100px 0;
+}
+.content-contacts-title{
+    font-size: 50px;
+}
+.content-contacts-title span{
+    font-weight: bold;
+}
+.content-contacts-subtitle{
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0A0A0A;
+}
+.content-contacts-form-details input{
+padding: 9px 25px;
+border: 1px solid black;
+color: black;
+}
+.email{
+    margin-right: 20px;
+}
+.content-contacts-form-details input::placeholder{
+    color: black;
+}
+.content-contacts-form-cta{
+    display: flex;
+    flex-direction: column;
+    width: 36%;
+    position: relative;
+    top: 50%;
+    left: 14%;
+    transform: translate(50%, 50%);
+}
+.content-contacts-form-cta input{
+    border:1px solid black;
+    padding: 20px;
+}
+.content-contacts-form-cta input::placeholder{
+    color: black;
+
+}
+
+.content-contacts-form-cta button{
+    background: #0A0A0A;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+    padding: 10px;
+}
+.footer{
+    background: #EFEFEF;
+    text-align: center;
+    margin: 0 25px;
+}
